@@ -1,9 +1,9 @@
 pipeline {
 	agent NONE
 
-	triggers {
-		pollSCM '* * * * *'
-	}
+	//triggers {
+	//	pollSCM '* * * * *'
+	//}
 
 
 	stages{
