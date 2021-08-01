@@ -10,7 +10,7 @@ pipeline {
 	
 	    stage('Fetch Code') {
                 steps {
-                    git branch: 'paac', url: 'https://github.com/my-tafara-organisation/vprofile-project.git'
+                    git branch: 'paac', url: 'https://github.com/my-tafara-organisation/sample-java-app.git'
                 }
             }
         
