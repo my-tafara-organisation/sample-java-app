@@ -1,5 +1,5 @@
 pipeline {
-	agent NONE
+	agent any
 
 	//triggers {
 	//	pollSCM '* * * * *'
